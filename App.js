@@ -10,7 +10,7 @@ const ListHeader = () =>(
   <Text style={styles.largeTitle}>Markets</Text>
   </View>
   <View style = {styles.divider}/>
-  </>
+   </> 
 )
 
 export default function App() {
