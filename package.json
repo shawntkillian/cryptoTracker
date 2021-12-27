@@ -7,15 +7,22 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
+  "resolutions": {
+    "react-native-gesture-handler": "^2"
+  },
   "dependencies": {
-    "@gorhom/bottom-sheet": "^4",
+    "@gorhom/bottom-sheet": "^3",
+    "@rainbow-me/animated-charts": "^1.0.0-alpha.6",
+    "axios": "^0.24.0",
+    "dedupe": "^3.0.2",
     "expo": "~44.0.0",
     "expo-status-bar": "~1.2.0",
+    "moment": "^2.29.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "react-native": "0.64.3",
-    "react-native-gesture-handler": "^2.1.0",
-    "react-native-reanimated": "^2.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-44.0.0.tar.gz",
+    "react-native-gesture-handler": "~2.1.0",
+    "react-native-reanimated": "~2.3.1",
     "react-native-web": "0.17.1"
   },
   "devDependencies": {
